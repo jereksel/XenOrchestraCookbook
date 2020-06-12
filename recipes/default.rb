@@ -19,14 +19,14 @@ template "#{installer_location}/xo-install.cfg" do
   group 'root'
   mode '0600'
   variables(
-    port: node[cookbook_name]['xen_orchestra_config_port'],
-    installdir: node[cookbook_name]['xen_orchestra_config_installdir'],
-    configupdate: node[cookbook_name]['xen_orchestra_config_configupdate'],
-    repository: node[cookbook_name]['xen_orchestra_config_repository'],
-    branch: node[cookbook_name]['xen_orchestra_config_branch'],
-    plugins: node[cookbook_name]['xen_orchestra_config_plugins'],
-    autoupdate: node[cookbook_name]['xen_orchestra_config_autoupdate'],
-    preserve: node[cookbook_name]['xen_orchestra_config_preserve']
+    port:         node[cookbook_name]['config_port'],
+    installdir:   node[cookbook_name]['config_installdir'],
+    configupdate: node[cookbook_name]['config_configupdate'],
+    repository:   node[cookbook_name]['config_repository'],
+    branch:       node[cookbook_name]['config_branch'],
+    plugins:      node[cookbook_name]['config_plugins'],
+    autoupdate:   node[cookbook_name]['config_autoupdate'],
+    preserve:     node[cookbook_name]['config_preserve']
   )
 end
 
