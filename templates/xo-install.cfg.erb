@@ -1,0 +1,30 @@
+# Optional user that runs the service. root by default
+#XOUSER="node"
+
+# Port number where xen-orchestra service is bound
+PORT="<%= @port %>"
+
+# Base dir for installation and future updates
+INSTALLDIR="<%= @installdir %>"
+
+# Configuration is stored in XOUSER's home directory and by default will be overwritten with every update done by this script. Set CONFIGUPDATE to false if you don't want this to happen
+CONFIGUPDATE=<%= @configupdate %>
+
+# Location of Xen Orchestra repository
+REPOSITORY="<%= @repository %>"
+
+# Git branch or tag (append tags/ before the tag name) where xen-orchestra sources are fetched.
+# Also, you can set this to "release" to use the latest tagged branch.
+BRANCH="<%= @branch %>"
+
+# Installation log path. If this is commented, the default path is logs directory inside this script root
+#LOGPATH="/tmp/example/logs"
+
+# (default) all plugins will be installed
+PLUGINS="<%= @plugins %>"
+
+# NodeJS and Yarn are automatically updated when running update. Switch this option to false if you want to disable it.
+AUTOUPDATE="<%= @autoupdate %>"
+
+# Define the number of previous installations you want to keep. Needs to be at least 1
+PRESERVE="<%= @preserve %>"

@@ -1,8 +1,8 @@
-name 'XenOrchestraInstallerUpdater-cookbook'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
-license 'All Rights Reserved'
-description 'Installs/Configures XenOrchestraInstallerUpdater-cookbook'
+name 'xen-orchestra'
+maintainer 'Andrzej Ressel'
+maintainer_email 'jereksel@gmail.com'
+license 'GPL-3.0-only'
+description 'Installs/Configures xen-orchestra using XenOrchestraInstallerUpdater'
 version '0.1.0'
 chef_version '>= 14.0'
 
@@ -10,10 +10,10 @@ chef_version '>= 14.0'
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
 # uploaded to a Supermarket.
 #
-# issues_url 'https://github.com/<insert_org_here>/XenOrchestraInstallerUpdater-cookbook/issues'
+# issues_url 'https://github.com/<insert_org_here>/xen-orchestra/issues'
 
 # The `source_url` points to the development repository for this cookbook.  A
 # `View Source` link will be displayed on this cookbook's page when uploaded to
 # a Supermarket.
 #
-# source_url 'https://github.com/<insert_org_here>/XenOrchestraInstallerUpdater-cookbook'
+# source_url 'https://github.com/<insert_org_here>/xen-orchestra'
